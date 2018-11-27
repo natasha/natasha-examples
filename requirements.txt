@@ -1,0 +1,5 @@
+
+natasha
+
+pytest==3.2.1
+nbval==0.9.1
