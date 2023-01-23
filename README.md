@@ -8,11 +8,11 @@ A set of Jupyter notebooks with examples of [Natasha](https://github.com/natasha
 Dev env
 
 ```bash
-python -m venv ~/.venvs/natasha-natasha-examples
-source ~/.venvs/natasha-natasha-examples/bin/activate
+python -m venv ~/.venvs/natasha-examples
+source ~/.venvs/natasha-examples/bin/activate
 
 pip install -r requirements/dev.txt
-python -m ipykernel install --user --name natasha-natasha-examples
+python -m ipykernel install --user --name natasha-examples
 ```
 
 Run notebooks
