@@ -1,4 +1,0 @@
-natasha==1.2.0
-
-pytest==5.2.2
-nbval==0.9.5

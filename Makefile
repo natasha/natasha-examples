@@ -1,11 +1,8 @@
 
-test:
-	pytest -v --nbval-lax */notes.ipynb
+exec-notebooks:
+	ls */*.ipynb | xargs -n 1 -P 4 \
+		jupyter nbconvert \
+			--ExecutePreprocessor.kernel_name=python3 \
+			--ClearMetadataPreprocessor.enabled=True \
+			--execute --to notebook --inplace
 
-clean:
-	find . \
-		-name .ipynb_checkpoints \
-		-o -name .DS_Store \
-		| xargs rm -rf
-
-	rm -rf .cache/ .pytest_cache/

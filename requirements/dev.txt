@@ -1,0 +1,4 @@
+natasha
+ipymarkup
+ipykernel
+nbconvert
